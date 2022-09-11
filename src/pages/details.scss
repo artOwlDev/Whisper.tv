@@ -1,0 +1,15 @@
+.details {
+    background: var(--background-color);
+    height: 100vh;
+    overflow-x: hidden;
+
+    h1 {
+        color: white;
+    }
+
+    .item-details {
+        h1 {
+            color: white;
+        }
+    }
+}

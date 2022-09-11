@@ -1,0 +1,20 @@
+:root {
+    --background-color: #0a192f;
+    --name-color: #0a192f;
+    --link-number-color: #1cd3b4;
+    --link-text-color: #aeb9d8;
+}
+
+::-webkit-scrollbar {
+    width: .5em;
+}
+
+
+::-webkit-scrollbar-track {
+    background: var(--background-color);
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: white
+}

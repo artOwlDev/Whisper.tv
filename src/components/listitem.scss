@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Poppins&family=Roboto+Mono&family=Silkscreen&display=swap');
+
+
+.list-item {
+    width: 250px;
+    height: 350px;
+    margin-right: 0.8rem;
+    margin-bottom: 3rem;
+    background: #1c4684;
+    -webkit-box-shadow: 0px 0px 4px 0px #1C4684;
+    box-shadow: 0px 0px 4px 0px #1C4684;
+    border-radius: 5px;
+
+    &:hover {
+        transform: scale(1.02);
+    }
+
+
+    img {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        width: 250px;
+        height: 280px;
+        cursor: pointer;
+
+    }
+
+    .info {
+        height: 70px;
+        width: 250px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        .name {
+            display: flex;
+            flex: 2;
+            align-items: center;
+            justify-content: center;
+
+            p {
+
+                text-align: center;
+                color: whitesmoke;
+                font-size: .9rem;
+                font-weight: 800;
+                font-family: 'Mukta', sans-serif;
+
+            }
+        }
+
+        .rating-red {
+            display: flex;
+            flex: 1;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+
+
+
+
+            h1 {
+                width: 40px;
+                color: rgb(245, 37, 37) !important;
+                background: rgb(39, 38, 38);
+                text-align: center;
+                font-size: 1rem !important;
+            }
+        }
+
+        .rating-green {
+            display: flex;
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+
+
+
+            h1 {
+                width: 40px;
+                color: rgb(59, 224, 17) !important;
+                background: rgb(39, 38, 38);
+                text-align: center;
+                font-size: 1rem !important;
+            }
+        }
+
+        .rating-yellow {
+
+            display: flex;
+            flex: 1;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+
+
+            h1 {
+                width: 40px;
+                color: yellow !important;
+                background: rgb(39, 38, 38);
+                text-align: center;
+                font-size: 1rem !important;
+            }
+        }
+
+        .icon {
+            display: flex;
+            flex: 1;
+            justify-content: center;
+            cursor: pointer;
+
+
+            .heart {
+                color: white;
+                font-size: 1.8rem;
+
+                &:hover {
+                    transition: all .5 ease-in-out;
+                    transform: scale(1.1);
+                }
+
+
+
+                &.liked {
+                    color: rgb(77, 170, 77);
+                }
+
+            }
+        }
+
+
+
+    }
+
+
+
+
+
+}

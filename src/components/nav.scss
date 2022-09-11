@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&family=Silkscreen&display=swap');
+
+
+.container {
+    .navbar {
+        background: var(--background-color);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 7vh;
+
+        a {
+            color: inherit;
+        }
+
+
+
+        .left-side {
+            display: flex;
+            align-items: center;
+
+            h1 {
+                margin-left: 2rem;
+                margin-right: 5rem;
+                color: white;
+                font-family: 'Silkscreen', cursive;
+                cursor: pointer;
+
+            }
+
+            .links {
+                padding: 1rem;
+                font-family: 'Poppins', sans-serif;
+                color: var(--link-text-color);
+                cursor: pointer;
+
+                span {
+                    font-size: .8rem;
+                    margin: 4px;
+                    color: var(--link-number-color);
+                }
+
+
+                &:hover {
+                    color: white;
+                    transition: all 0.5s ease;
+                }
+            }
+        }
+
+        .right-side {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            h1 {
+                color: var(--link-text-color);
+                font-family: 'Silkscreen', cursive;
+                font-size: 1rem;
+                font-weight: 400;
+
+            }
+
+            img {
+                object-fit: contain;
+                height: 4vh;
+                border-radius: 50%;
+            }
+
+            .icon {
+                cursor: pointer;
+                color: var(--link-text-color);
+                margin-right: 1rem;
+            }
+        }
+    }
+
+    hr {
+        background-color: var(--link-text-color);
+        height: 0.1vh;
+    }
+
+    .dropdown {
+        transition: all 5s ease;
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        background-color: rgba(86, 88, 180, 1);
+        display: flex;
+        flex-direction: column;
+        width: 8vw;
+        font-family: 'Poppins', sans-serif;
+        -webkit-box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, .8);
+        box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, .8);
+
+        border-radius: 16px;
+
+        span {
+            padding: 8px;
+            color: whitesmoke;
+            font-size: 13px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 13px;
+            font-weight: bold;
+            text-align: center;
+            padding-bottom: 4px;
+        }
+
+        .span-element {
+            cursor: pointer;
+        }
+
+        .span-element:hover {
+            background-color: #1a4586;
+            color: white;
+        }
+    }
+
+}

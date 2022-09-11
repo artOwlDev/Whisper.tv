@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&family=Silkscreen&display=swap');
+
+
+.list-tv {
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 80px;
+
+
+    .wrapper {
+
+
+
+        .container {
+
+
+            .new {
+
+                h1 {
+                    font-size: 1.5rem;
+                    color: whitesmoke;
+                    font-family: 'Poppins', sans-serif;
+                    margin-bottom: 1rem;
+                }
+
+                .list-items {
+                    display: flex;
+                    width: max-content;
+                }
+            }
+
+            .popular {
+                h1 {
+                    font-size: 1.5rem;
+                    color: whitesmoke;
+                    font-family: 'Poppins', sans-serif;
+                    margin-bottom: 1rem;
+                }
+
+                .list-items {
+                    display: flex;
+                    width: max-content;
+                }
+            }
+
+            .action {
+                h1 {
+                    font-size: 1.5rem;
+                    color: whitesmoke;
+                    font-family: 'Poppins', sans-serif;
+                    margin-bottom: 1rem;
+                }
+
+                .list-items {
+                    display: flex;
+                    width: max-content;
+                }
+            }
+        }
+    }
+
+}

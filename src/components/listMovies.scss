@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&family=Silkscreen&display=swap');
+
+
+.list {
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 80px;
+    animation: all loadAnimation;
+
+
+
+
+    .wrapper {
+
+
+
+        .container {
+
+
+            .new {
+
+                transition: all 1s ease;
+
+                h1 {
+                    font-size: 1.5rem;
+                    color: whitesmoke;
+                    font-family: 'Poppins', sans-serif;
+                    margin-bottom: 1rem;
+                }
+
+                .sliders {
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 10px;
+                    margin-right: 50px;
+
+                    .slider {
+                        height: 100%;
+                        width: 50px;
+                        color: white;
+                        background: rgba(0, 0, 0, 0.253);
+                        z-index: 99;
+                        padding: 8px;
+                        border-radius: 10px;
+                        cursor: pointer;
+
+
+                        &.back {
+                            margin: 2px;
+
+                            &:hover {
+                                background: rgba(0, 0, 0, 0.644);
+                                transform: scale(1.1);
+
+                            }
+                        }
+
+                        &.forward {
+                            margin: 2px;
+
+                            &:hover {
+                                background: rgba(0, 0, 0, 0.644);
+                                transform: scale(1.1);
+
+                            }
+                        }
+                    }
+                }
+
+                .list-items {
+                    display: flex;
+                    width: max-content;
+                }
+            }
+
+            .indie {
+                h1 {
+                    font-size: 1.5rem;
+                    color: whitesmoke;
+                    font-family: 'Poppins', sans-serif;
+                    margin-bottom: 1rem;
+                }
+
+                .sliders {
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 10px;
+                    margin-right: 50px;
+
+                    .slider {
+                        height: 100%;
+                        width: 50px;
+                        color: white;
+                        background: rgba(0, 0, 0, 0.253);
+                        z-index: 99;
+                        padding: 8px;
+                        border-radius: 10px;
+                        cursor: pointer;
+
+
+                        &.back {
+                            margin: 2px;
+
+                            &:hover {
+                                background: rgba(0, 0, 0, 0.644);
+                                transform: scale(1.1);
+
+                            }
+                        }
+
+                        &.forward {
+                            margin: 2px;
+
+                            &:hover {
+                                background: rgba(0, 0, 0, 0.644);
+                                transform: scale(1.1);
+
+                            }
+                        }
+                    }
+                }
+
+
+
+
+
+                .list-items {
+                    display: flex;
+                    width: max-content;
+                }
+            }
+
+            .action {
+                h1 {
+                    font-size: 1.5rem;
+                    color: whitesmoke;
+                    font-family: 'Poppins', sans-serif;
+                    margin-bottom: 1rem;
+                }
+
+                .sliders {
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 10px;
+                    margin-right: 50px;
+
+                    .slider {
+                        height: 100%;
+                        width: 50px;
+                        color: white;
+                        background: rgba(0, 0, 0, 0.253);
+                        z-index: 99;
+                        padding: 8px;
+                        border-radius: 10px;
+                        cursor: pointer;
+
+
+                        &.back {
+                            margin: 2px;
+
+                            &:hover {
+                                background: rgba(0, 0, 0, 0.644);
+                                transform: scale(1.1);
+
+                            }
+                        }
+
+                        &.forward {
+                            margin: 2px;
+
+                            &:hover {
+                                background: rgba(0, 0, 0, 0.644);
+                                transform: scale(1.1);
+
+                            }
+                        }
+                    }
+                }
+
+                .list-items {
+                    display: flex;
+                    width: max-content;
+                }
+            }
+        }
+    }
+
+}
+
+@keyframes loadAnimation {
+    0% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: visible;
+    }
+}
