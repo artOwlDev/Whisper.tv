@@ -10,9 +10,8 @@ const Search = () => {
 
 
 
-    const SEARCH_API = "https://api.themoviedb.org/3/search/movie?&api_key=e04f3c7713a6e4684e77e1e5c66c4908&query=";
-    const FEATURED = "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=e04f3c7713a6e4684e77e1e5c66c4908&page=1"
-    const NEW = "https://api.themoviedb.org/3/discover/tv?sort_by=popularity.desc&api_key=e04f3c7713a6e4684e77e1e5c66c4908&page=1";
+    const SEARCH_API = `https://api.themoviedb.org/3/search/movie?&api_key=${process.env.REACT_APP_API_KEY}&query=`;
+    const FEATURED = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${process.env.REACT_APP_API_KEY}&page=1`
 
 
 

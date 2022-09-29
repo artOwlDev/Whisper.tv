@@ -7,8 +7,8 @@ import "./listTV.scss"
 
 const ListTV = () => {
 
-    const NEW = "https://api.themoviedb.org/3/discover/tv?sort_by=popularity.desc&api_key=e04f3c7713a6e4684e77e1e5c66c4908&page=1";
-    const POPULAR = "https://api.themoviedb.org/3/discover/tv?sort_by=vote_count.desc&api_key=e04f3c7713a6e4684e77e1e5c66c4908&page=1";
+    const NEW = `https://api.themoviedb.org/3/discover/tv?sort_by=popularity.desc&api_key=${process.env.REACT_APP_API_KEY}&page=1`;
+    const POPULAR = `https://api.themoviedb.org/3/discover/tv?sort_by=vote_count.desc&api_key=${process.env.REACT_APP_API_KEY}&page=1`;
 
     const [newTV, setNewTV] = useState([]);
     const [popularTV, setPopularTV] = useState([]);

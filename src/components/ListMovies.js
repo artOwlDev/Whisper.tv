@@ -6,9 +6,9 @@ import { ArrowBackIosNewOutlined, ArrowBackIosOutlinedIcon, ArrowForwardIosOutli
 
 const ListMovies = () => {
 
-    const FEATURED = "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=e04f3c7713a6e4684e77e1e5c66c4908&page=1"
-    const HIGH_VOTED = "http://api.themoviedb.org/3/discover/movie?sort_by=vote_count.desc&api_key=e04f3c7713a6e4684e77e1e5c66c4908&page=1"
-    const ACTION_DRAMA = "https://api.themoviedb.org/3/discover/movie?api_key=e04f3c7713a6e4684e77e1e5c66c4908&with_genres=12"
+    const FEATURED = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${process.env.REACT_APP_API_KEY}&page=1`
+    const HIGH_VOTED = `http://api.themoviedb.org/3/discover/movie?sort_by=vote_count.desc&api_key=${process.env.REACT_APP_API_KEY}&page=1`
+    const ACTION_DRAMA = `https://api.themoviedb.org/3/discover/movie?api_key=${process.env.REACT_APP_API_KEY}&with_genres=12`
 
 
     const [featured_movies, setFeaturedMovies] = useState([]);
@@ -32,6 +32,8 @@ const ListMovies = () => {
                 console.log(data);
                 setFeaturedMovies(data.results);
             });
+
+        
     }, []);
 
 
